@@ -67,6 +67,11 @@
       }
     }
   },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "less"
+    }
+  },
   "cli": {
     "analytics": false
   }

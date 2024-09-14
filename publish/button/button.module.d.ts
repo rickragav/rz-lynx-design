@@ -5,3 +5,4 @@ export declare class ButtonModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<ButtonModule, never, [typeof i1.ButtonComponent], [typeof i1.ButtonComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<ButtonModule>;
 }
+//# sourceMappingURL=button.module.d.ts.map

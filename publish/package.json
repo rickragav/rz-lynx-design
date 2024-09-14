@@ -1,6 +1,6 @@
 {
   "name": "rz-lynx-design",
-  "version": "0.0.1",
+  "version": "0.0.0-watch+1726321547477",
   "peerDependencies": {
     "@angular/common": "^18.1.0",
     "@angular/core": "^18.1.0"
@@ -27,5 +27,8 @@
       "esm": "./esm2022/button/rz-lynx-design-button.mjs",
       "default": "./fesm2022/rz-lynx-design-button.mjs"
     }
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
   }
 }
